@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Produção do dia</title>
+</head>
+<body>
+    <section class="aplicativo">
+        <h1 class="titulo">Produção de Hoje.</h1>
+   
+        
+            <p class="subtitulo"><strong>Quantidade de Massas do Dia</strong></p>
+
+        <form action="#"> 
+            <div class="todos">
+                <label for="">Rodizio</label>
+                <input type="text"  id="rodizio" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="familia">
+                <label for="">Familia</label>
+                <input type="text" id="familia" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="familia">
+                <label for="">Grande </label>
+                <input type="text" id="grande" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="familia">
+                <label for="">Média</label>
+                <input type="text" id="media" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="familia">
+                <label for="">Brotinho</label>
+                <input type="text" id="broto" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="familia">
+                <label for="">Calzone</label>
+                <input type="text" id="calzone" required>
+                <span class="validity"></span>
+            </div>
+            
+            <div>
+                <input class="botao" type="submit" onclick="resultado()" value="Calcular">
+                <input class="botao" type="reset" value="Limpar">
+            </div>
+        </form>
+                <strong class="subtitulo">Total</strong>
+                <h1 class="resultado" id="total"></h1>
+                <mark class="numeroCalzone">Quantidade de calzone</mark>
+                <h1 class="resultado" id="totalCalzone"></h1>
+
+                <h1 class="copy">&reg; @anderson_souza  &copy; &trade;</h1> 
+               
+    </section>
+        
+               
+    </body>
+    <script src="massas.js"></script>
+</html>

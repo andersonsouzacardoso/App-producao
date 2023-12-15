@@ -1,1 +1,1 @@
-![Logo do projeto](http://127.0.0.1:5500/index.html?#)
+![Logo do projeto](https://github.com/andersonsouzacardoso/App-producao/blob/main/Logo/galaxy-s5.png)
